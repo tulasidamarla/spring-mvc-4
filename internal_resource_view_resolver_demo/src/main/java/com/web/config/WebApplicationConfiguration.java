@@ -11,8 +11,8 @@ import org.springframework.web.servlet.view.JstlView;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.web")
-public class EventTrackerConfiguration {
- /*   @Bean
+public class WebApplicationConfiguration {
+    @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
@@ -20,6 +20,6 @@ public class EventTrackerConfiguration {
         viewResolver.setSuffix(".jsp");
  
         return viewResolver;
-    }*/
+    }
  
 }
