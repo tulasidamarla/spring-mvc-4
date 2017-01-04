@@ -5,7 +5,7 @@ Application contains everything including configuration of server, hence the nam
 
 In Spring MVC 4, Instead of XML configuration Java configuration can be used. 
 
-Any Java class can become a configuration file if it is annotated with the following annotations.
+Any Java class can become a spring mvc configuration file if it is annotated with the following annotations.
 
 @Configuration --> represents a spring configuration file <br/>
 @EnableWebMvc  --> To enable spring mvc
