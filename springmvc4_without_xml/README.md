@@ -1,4 +1,4 @@
-To eliminiate web.xml configuration and to write a java configuration file to bootstrap the application, java class has to implement the interface "org.springframework.web.WebApplicationInitializer". This interface contains one call back method with a ServletContext object passed in it. This context object can be used to hook spring configuration classes like DispatcherServlet etc.
+To eliminiate web.xml configuration and write a java configuration file to bootstrap the application, java class has to implement the interface "org.springframework.web.WebApplicationInitializer". This interface contains one call back method with a ServletContext object passed in it. This context object can be used to hook spring configuration classes like DispatcherServlet etc.
 
 Here is the example:
 
