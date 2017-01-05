@@ -20,6 +20,7 @@
 </style>
 </head>
 <body>
+	
 	<form:form commandName="event">
 	 	<form:errors path="*" cssClass="errorblock" element="div"></form:errors>
 	 	<label for="textinput1"> Enter Minutes:</label>
