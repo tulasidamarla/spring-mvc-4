@@ -16,7 +16,6 @@ public class EventController {
 	public String displayEventpage(ModelMap model) {
 		Event ev = new Event();
 		ev.setName("Java User Group");
-		//model.addAttribute("greeting", "Hello World from Spring 4 MVC");
 		model.addAttribute(ev);
 		return "event";
 	}
