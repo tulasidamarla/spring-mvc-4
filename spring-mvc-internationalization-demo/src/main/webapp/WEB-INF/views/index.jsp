@@ -11,5 +11,6 @@
 	<br/>
 	<br/>
 	<a href="event">Add Event >></a><br>
-	<a href="attendee">Add attendee >></a></body>
+	<a href="attendee">Add attendee >></a>
+</body>
 </html>
