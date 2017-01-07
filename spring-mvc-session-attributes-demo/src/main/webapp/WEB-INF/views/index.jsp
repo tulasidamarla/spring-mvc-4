@@ -10,7 +10,7 @@
 	Greeting : ${event.name}
 	<br/>
 	<br/>
-	<a href="/sessionattributesdemo/event">Add Event >></a>
-
+	<a href="/sessionattributesdemo/event">Add Event >></a><br>
+	<a href="/sessionattributesdemo/attendee">Add attendee >></a>
 </body>
 </html>
