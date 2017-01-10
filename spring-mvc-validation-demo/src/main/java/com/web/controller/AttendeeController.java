@@ -23,7 +23,7 @@ public class AttendeeController {
 	}
 	
 	@RequestMapping(value="/attendee", method=RequestMethod.POST)
-	public String saveAttendee(@Valid Attendee attendee, BindingResult result, Model m){
+	public String saveAttendee(@Valid Attendee attendee, BindingResult result){
 		if(result.hasErrors()){
 			return "attendee";
 		}
