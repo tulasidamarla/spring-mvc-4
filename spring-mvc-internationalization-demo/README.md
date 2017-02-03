@@ -2,9 +2,9 @@ To Add internationalization using spring there are few steps required.
 
 Configuration changes
 ---------------------
-1)Add messageSource() method in WebConfig file
-2)Add localeResolver() method to set our current locale to avoid keep requesting everytime
-3)override addInterceptor() of WebMvcConfiguereAdapter to look for locale change
+1)Add messageSource() method in WebConfig file<br>
+2)Add localeResolver() method to set our current locale to avoid keep requesting everytime<br>
+3)override addInterceptor() of WebMvcConfiguereAdapter to look for locale change<br>
 
 properties file
 ---------------
@@ -12,7 +12,7 @@ properties file
 
 View changes
 ------------
-5)create spring messages tag inside jsp pages to display the values
+5)create spring messages tag inside jsp pages to display the values<br>
 6)add anchor tags to changing languages
 
 Please see the sample code below.
