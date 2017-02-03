@@ -44,7 +44,7 @@ Please see the sample code below.
 	}
 
 Note: 
-1)The bean methods messagesSource() and localeResolver() are autowired byName. Internationalization won't work if method names are changed.
+1)The bean methods messagesSource() and localeResolver() are autowired byName. Internationalization won't work if method names are changed.<br>
 2)properties file name should be as configured in messageSource() method. i.e. appmessages_en.properties, appmessages_es.properties etc. 
 
 Jsp Page 
