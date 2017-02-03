@@ -1,8 +1,8 @@
-Adding validation using spring requires following steps.
-1)error tags of spring form tag library.
-2)Add maven dependencies of java validation(api) and hibernate validator(api implementor).
-3)Add validation annotations to properties of all Model classes.
-4)Add BindingResult method argument in controller method to check for errors.
+Adding validation using spring requires following steps.<br>
+1)error tags of spring form tag library.<br>
+2)Add maven dependencies of java validation(api) and hibernate validator(api implementor).<br>
+3)Add validation annotations to properties of all Model classes.<br>
+4)Add BindingResult method argument in controller method to check for errors.<br>
 
 view changes
 ------------
