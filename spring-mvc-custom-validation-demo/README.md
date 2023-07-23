@@ -19,6 +19,7 @@ Using custom validation have some advantages like cleaner implementation, more d
 
 1) write custom annotations.
 
+```
 	@Documented
 	@Constraint(validatedBy=PhoneConstraintValidator.class)
 	@Target({ElementType.METHOD,ElementType.FIELD})
@@ -30,6 +31,7 @@ Using custom validation have some advantages like cleaner implementation, more d
 		
 		Class<? extends Payload>[] payload() default {};
 	}
+```
 
 2) write constraint validator.
 
